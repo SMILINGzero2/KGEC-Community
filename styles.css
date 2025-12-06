@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 54, 62);
+    color: white;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 54, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-left {
+    width: 40%;
+}
+
+.nav-right{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 1.8em;    
+    font-weight: 600;
+}
+
+.logo::first-letter{
+    color: rgb(45, 196, 247);
+    font-size: 1.2em;
+    font-family: Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.nav-items:hover {
+    color: rgb(0, 208, 255);
+    border-bottom: 4px solid rgb(37, 197, 255);
+}
+
+#join{
+    height: 5vh;
+    width: 8vw;
+    background-color: #1ea0ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 5vw;
+}
+
+.middle{
+    background-color: rgb(72, 80, 87);
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tomorrow {
+    color: #54b7fd;
+}
+
+.text-content-big {
+    font-size: 1.8em;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: 600;
+}
+
+.text-content2{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.Button{
+    text-align: center;
+    background-color: #1ea0ff;
+    color: white;
+    width: 16vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 1.3em;    
+}
+
+.offerings{
+    width: 100%;
+    height: calc(100% - 10vh - 35vh);
+}
+
+.offering-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    font-size: 1.4em;
+}
+
+.offerings-boxes{
+    height: calc(45vh - 20px );
+    display: flex;
+    gap: 3vw;
+    margin-top: 4vh;
+    justify-content: center;
+}
+
+.code-logo{
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: rgb(61, 198, 232);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boxes{
+    background-color: rgba(89, 103, 111, 0.436);
+    width: 18vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-offerings {
+    height: 16vh;
+    font-size: 4em ;
+    color: #1ea0ff;
+}
+
+.domains {
+    font-size: 1.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1vh;
+}
