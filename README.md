@@ -1,2 +1,2 @@
-# Project_1-
+# KGEC Community
 1st Project : KGEC Community
