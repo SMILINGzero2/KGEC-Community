@@ -9,6 +9,7 @@ html, body{
     height: 100%;
     background-color: rgb(46, 54, 62);
     color: white;
+    font-family: .75rem;
 }
 
 #main {
